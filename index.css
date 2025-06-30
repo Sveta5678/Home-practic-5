@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+
+    background-color: #070218;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #3f2aff;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.link_prog {
+    font-weight: 700;
+    font-size: 18px;
+    color: #3f2aff;
+    background: url("img/download.png") left center / contain no-repeat;
+    /* background-image: url("img/download.png");
+    background-repeat: no-repeat;
+    background-position: left center; */
+    padding-left: 30px;
+}
